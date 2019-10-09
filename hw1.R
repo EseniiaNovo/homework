@@ -12,4 +12,4 @@ final_function <- function(data, rowsel, colsel) {
     }
     return(list(newdata, results))
 }
-print("hey")
+print(final_function(iris, 60:75, c(TRUE, TRUE, FALSE, FALSE, TRUE)))
